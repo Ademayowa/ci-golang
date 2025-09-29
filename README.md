@@ -20,7 +20,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/Ademayowa/go-restapi-v2
+git clone https://github.com/Ademayowa/ci-golang.git
 ```
 
 **Installation**
