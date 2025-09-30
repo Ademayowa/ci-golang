@@ -21,7 +21,7 @@ func TestCreateJob(t *testing.T) {
 	}
 
 	body, _ := json.Marshal(job)
-	resp, err := http.Post(server.URL+"/job", "application/json", bytes.NewBuffer(body))
+	resp, err := http.Post(server.URL+"/jobs", "application/json", bytes.NewBuffer(body))
 	if err != nil {
 		t.Fatalf("Request failed: %v", err)
 	}
